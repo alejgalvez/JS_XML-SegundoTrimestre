@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Reto 5 Nómina
+Alejandro Gálvez
+-->
+
+<Nómina>
+    <datosEmpresa>
+        <nombre>TechSolutions S.L</nombre>
+        <CIF>B12345678</CIF>
+        <dirección númeroCalle = "42">Calle Innovación</dirección>
+        <ciudad>Madrid</ciudad>
+    </datosEmpresa>
+    <datosTrabajador>
+        <nombreCompleto>Juan Pérez López</nombreCompleto>
+        <DNI>12345678A</DNI>
+        <NSS>12 345678 01</NSS>
+        <categoría>Técnico Superior</categoría>
+        <grupoCotización>2</grupoCotización>
+        <departamento>Desarrollo</departamento>
+        <puestoTrabajo>Desarrollador Web</puestoTrabajo>
+        <fechaAlta>01/01/2023</fechaAlta>
+        <totalDías>31</totalDías>
+    </datosTrabajador>
+    <detallesNómina moneda = "€">
+        <devengos>
+            <salarioBase>1200.00</salarioBase>
+            <complementoTransporte>150.00</complementoTransporte>
+            <pagaExtraProrrateada>100.00</pagaExtraProrrateada>
+            <plusProductividad>200.00</plusProductividad>
+        </devengos>
+        <deducciones>
+            <IRPF tipo = "15%">210.00</IRPF>
+            <seguridadSocial tipo = "6.35%">100.00</seguridadSocial>
+            <desempleo tipo = "1.55%">20.00</desempleo>
+            <formaciónProfesional tipo ="0.1%">10.00</formaciónProfesional>
+        </deducciones>
+        <totales>
+            <totalDevengado>1650.00</totalDevengado>
+            <totalDeducido>340.00</totalDeducido>
+            <salarioNeto>1310.00</salarioNeto>
+        </totales>
+    </detallesNómina>
+    <Nómina>
+
