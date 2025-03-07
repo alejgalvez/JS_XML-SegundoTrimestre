@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Aeropuerto
+-->
+
+<aeropuerto nombre="Aeropuerto Internacional XYZ">
+  <terminales>
+    <terminal id="T1" nombre="Terminal Norte">
+      <salidas>
+        <vuelo id="V123" destino="Nueva York" hora="10:00">
+          <puerta>G5</puerta>
+          <estado>Programado</estado>
+        </vuelo>
+        <vuelo id="V456" destino="Londres" hora="12:30">
+          <puerta>G7</puerta>
+          <estado>Retrasado</estado>
+        </vuelo>
+        <vuelo id="V789" destino="París" hora="14:00">
+          <puerta>G9</puerta>
+          <estado>Cancelado</estado>
+        </vuelo>
+      </salidas>
+    </terminal>
+    <terminal id="T2" nombre="Terminal Sur">
+      <salidas>
+        <vuelo id="V101" destino="Tokio" hora="15:45">
+          <puerta>G12</puerta>
+          <estado>Programado</estado>
+        </vuelo>
+        <vuelo id="V202" destino="Berlín" hora="16:00">
+          <puerta>G15</puerta>
+          <estado>En Horario</estado>
+        </vuelo>
+      </salidas>
+    </terminal>
+  </terminales>
+  <aerolineas>
+    <aerolinea codigo="AX" nombre="AirXYZ">
+      <vuelos>
+        <vuelo id="VA84" destino="Madrid" hora="20:00">
+          <puerta>G22</puerta>
+          <estado>Programado</estado>
+        </vuelo>
+      </vuelos>
+    </aerolinea>
+  </aerolineas>
+</aeropuerto>
+
+
