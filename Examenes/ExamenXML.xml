@@ -32,7 +32,7 @@ Examen XML -->
 
         <nombre estado="activo">Exposición de Arte Moderno</nombre>
 
-        <descripcion categoria="conierto">Se expondrán los mejores cuadros de jóvenes españoles</descripcion>
+        <descripcion categoria="exposicion">Se expondrán los mejores cuadros de jóvenes españoles</descripcion>
 
         <usuarioID>57689</usuarioID>
 
