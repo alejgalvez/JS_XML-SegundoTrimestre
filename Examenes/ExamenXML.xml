@@ -1,49 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Aeropuerto
--->
 
-<aeropuerto nombre="Aeropuerto Internacional XYZ">
-  <terminales>
-    <terminal id="T1" nombre="Terminal Norte">
-      <salidas>
-        <vuelo id="V123" destino="Nueva York" hora="10:00">
-          <puerta>G5</puerta>
-          <estado>Programado</estado>
-        </vuelo>
-        <vuelo id="V456" destino="Londres" hora="12:30">
-          <puerta>G7</puerta>
-          <estado>Retrasado</estado>
-        </vuelo>
-        <vuelo id="V789" destino="París" hora="14:00">
-          <puerta>G9</puerta>
-          <estado>Cancelado</estado>
-        </vuelo>
-      </salidas>
-    </terminal>
-    <terminal id="T2" nombre="Terminal Sur">
-      <salidas>
-        <vuelo id="V101" destino="Tokio" hora="15:45">
-          <puerta>G12</puerta>
-          <estado>Programado</estado>
-        </vuelo>
-        <vuelo id="V202" destino="Berlín" hora="16:00">
-          <puerta>G15</puerta>
-          <estado>En Horario</estado>
-        </vuelo>
-      </salidas>
-    </terminal>
-  </terminales>
-  <aerolineas>
-    <aerolinea codigo="AX" nombre="AirXYZ">
-      <vuelos>
-        <vuelo id="VA84" destino="Madrid" hora="20:00">
-          <puerta>G22</puerta>
-          <estado>Programado</estado>
-        </vuelo>
-      </vuelos>
-    </aerolinea>
-  </aerolineas>
-</aeropuerto>
+<!-- Alejandro Gálvez 
+Examen XML -->
+
+-<gestionEventos>
 
 
+    -<evento ubicacion="Madrid, calle Alderete,15, The Groove Club" hora="22:00:00" fecha="2025-02-02">
+
+        <nombre estado="cancelado">Concierto de Jazz</nombre>
+
+        <descripcion categoria="concierto">Viene el mejor músico de Irlanda</descripcion>
+
+        <usuarioID>12345</usuarioID>
+
+        <precio moneda="€">25</precio>
+
+    </evento>
+
+
+    -<listaEnlaces>
+
+        <url>ticketmaster.com/concierto</url>
+
+        <url>eventbrite.com/concierto</url>
+
+    </listaEnlaces>
+
+
+    -<evento ubicacion="Malaga, Plaza del Siglo,33, Museo ArteVivo" hora="21:00:00" fecha="2025-02-12">
+
+        <nombre estado="activo">Exposición de Arte Moderno</nombre>
+
+        <descripcion categoria="conierto">Se expondrán los mejores cuadros de jóvenes españoles</descripcion>
+
+        <usuarioID>57689</usuarioID>
+
+        <precio moneda="€">30</precio>
+
+    </evento>
+
+
+    -<listaEnlaces>
+
+        <url>museoartevivo.com/entradas</url>
+
+    </listaEnlaces>
+
+
+    -<evento ubicacion="Malaga, Teatro Cervantes, 35" hora="21:00:00" fecha="2025-08-25">
+
+        <nombre estado="activo">Obra de Teatro "Sueños en Escena"</nombre>
+
+        <descripcion categoria="Obra de Teatro">Obra de teatro protagonizada por Juan Alberto Domínguez</descripcion>
+
+        <usuarioID>57689</usuarioID>
+
+        <precio moneda="€">0</precio>
+
+    </evento>
+
+
+    -<listaEnlaces>
+
+        <url>eventbrite.es/sueñosenescena</url>
+
+        <url>teatrocentral.com/sueñosenescena</url>
+
+    </listaEnlaces>
+
+
+    -<evento ubicacion="Malaga, Calle Álamos,12, CineMaty" hora="19:00:00" fecha="2025-12-10">
+
+        <nombre estado="cancelado">Festival de Cine Independiente</nombre>
+
+        <descripcion categoria="Festival">Festival de Cine para personas jubiladas</descripcion>
+
+        <usuarioID>456732</usuarioID>
+
+        <precio moneda="€">15</precio>
+
+    </evento>
+
+
+    -<listaEnlaces>
+
+        <url>ticketmaster.es/entradafestival</url>
+
+    </listaEnlaces>
+
+
+    -<evento ubicacion="Málaga,Torremolinos, Calle Cabello,45" hora="18:00:00" fecha="2025-5-22">
+
+        <nombre estado="pospuesto">Festival los Álamos</nombre>
+
+        <descripcion categoria="Festival">Fiesta en reciento cerrado con los mejores cantantes del momento</descripcion>
+
+        <usuarioID>256789</usuarioID>
+
+        <precio moneda="€">70</precio>
+
+    </evento>
+
+
+    -<listaEnlaces>
+
+        <url>festivalalamos.es</url>
+
+    </listaEnlaces>
+
+</gestionEventos>

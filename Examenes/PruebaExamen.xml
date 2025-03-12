@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Alejandro Gálvez
+Prueba Examen
+-->
+
+<seguimientoProducto>
+    
+    <producto fechaInicio ="23-05-2023" estado="cancelado">
+        
+        <nombre plataforma ="Nintendo Switch">The Legends of Zelda: Tears of the Kingdom</nombre>
+        <descripcion>Juego de aventuras </descripcion>
+        <precioObjetivo moneda ="€">70</precioObjetivo>    
+          
+    </producto>
+    
+    <usuario id ="12345">
+        
+        <correoElectronico>francisco@gmail.com</correoElectronico>
+        
+        
+    </usuario>
+    
+    <tiendas>
+        
+        <nombre url="https://www.amazon.es/zeld">Amazon</nombre>
+        <nombre url="https://www.costomovil.es/zelda">Costo Movil</nombre>
+        <nombre url="https://www.game.es/zelda">Game</nombre>
+        
+    </tiendas>
+    
+    <producto fechaInicio ="26-08-2024" estado="activo">
+        
+        <nombre plataforma ="PS5">Hogwarts Legacy</nombre>
+        <descripcion>Juego de rol </descripcion>
+        <precioObjetivo moneda ="€">60</precioObjetivo>
+        
+    </producto>
+    
+    <usuario id ="67891">
+        
+        <correoElectronico>alejandro@gmail.com</correoElectronico>
+        
+    </usuario>
+    
+    <tiendas>
+        
+        <nombre url="https://www.amazon.es/hogwarts">Amazon</nombre>
+        <nombre url="https://www.elcorteingles.es/hogwarts">El Corte Inglésl</nombre>
+        <nombre url="https://www.game.es/hogwarts">Game</nombre>
+        
+    </tiendas>
+    
+    <producto fechaInicio ="02-01-2025" estado="pausado">
+        
+        <nombre plataforma ="Nintendo Switch">Super Mario Odyssey</nombre>
+        <descripcion>Juego de plataformas en 3D </descripcion>
+        <precioObjetivo moneda ="€">50</precioObjetivo>
+        
+    </producto>
+    
+    <usuario id ="101112">
+        
+        <correoElectronico>daniel@gmail.com</correoElectronico>
+        
+    </usuario>
+    
+    <tiendas>
+        
+        <nombre url="https://www.amazon.es/mario">Amazon</nombre>
+        <nombre url="https://www.fnac.es/mario">Fnac</nombre>
+        <nombre url="https://www.mediamarkt.es/mario">MediaMarkt</nombre>
+        
+    </tiendas>
+    
+    <producto fechaInicio ="02-10-2024" estado="cancelado">
+        
+        <nombre plataforma ="Windows">Elden Ring</nombre>
+        <descripcion>Juego de mundo abierto </descripcion>
+        <precioObjetivo moneda ="€">59</precioObjetivo>
+        
+    </producto>
+    
+    <usuario id ="101213">
+        
+        <correoElectronico>alvaro@gmail.com</correoElectronico>
+        
+    </usuario>
+    
+    <tiendas>
+        
+        <nombre url="https://www.amazon.es/elden">Amazon</nombre>
+        <nombre url="https://www.game.es/elden">Game</nombre>
+        <nombre url="https://www.mediamarkt.es/elden">MediaMarkt</nombre>
+        
+    </tiendas>
+    
+</seguimientoProducto>
